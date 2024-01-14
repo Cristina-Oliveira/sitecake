@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #e0dddd;
+}
+
+.image-principal{
+    width: 30%;
+    margin-right: 30px;
+}
+
+header,
+section h2,
+section h3
+{
+    font-family: 'Rubik', sans-serif;
+    color:#e76161;;
+}
+
+header{
+    padding: 16px 0;
+    background-color: rgba(214, 176, 176, 0.753);
+    color: #e76161;
+}
+
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li a{
+    color: #e76161;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, 
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #726e6e;
+}
+
+section h2,
+section h3 {
+    margin-bottom: 13px;
+}
+
+section p {
+    margin-bottom: 8px
+}
+
+#contato .container {
+    display: block;
+}
+
+.contato-metodo {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: rgba(214, 176, 176, 0.911) ;
+    color: #e76161;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgba(214, 176, 176, 0.753);
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #e76161;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+footer{
+    padding: 16px 0;
+    background-color: rgba(214, 176, 176, 0.753);
+    color: #e76161;
+    text-align: center;
+}
